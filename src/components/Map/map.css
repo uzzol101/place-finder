@@ -1,0 +1,4 @@
+.map-wrapper {
+    width: calc(100vw - var(--side-bar-width));
+    height: 100vh;
+}

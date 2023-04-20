@@ -1,0 +1,50 @@
+.place-finder-container {
+    display: grid;
+    grid-template-columns: var(--side-bar-width) 1fr;
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 15px;
+    border-right: 2px solid darkblue;
+}
+
+
+.label-container {
+    display: grid;
+    grid-template-columns: 135px 1fr;
+    align-items: center;
+}
+
+.label-text {
+    text-align: right;
+}
+
+.label-value {
+    display: flex;
+    margin-left: 10px;
+}
+
+.label-value input {
+    min-width: 200px;
+    border: 1px solid lightblue;
+    padding: 10px;
+}
+
+input:focus,
+input:active {
+    border: 1px solid lightblue;
+    outline: 1px solid lightblue;
+}
+
+.confirm-button {
+    margin-top: 30px;
+    min-width: 200px;
+    background-color: darkblue;
+    color: white;
+}
